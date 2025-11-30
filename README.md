@@ -1,4 +1,4 @@
-# Lora PUCK
+# Lora Puck
 
 a Lora Puck made using an RP2040 microcontroller!
 
