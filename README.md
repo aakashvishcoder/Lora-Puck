@@ -14,6 +14,7 @@ a Lora Puck made using an RP2040 microcontroller!
 <img width="1321" height="897" alt="Screenshot 2025-11-30 210747" src="https://github.com/user-attachments/assets/1484a1f5-f7bd-4e58-923d-200739f7ea15" />
 
 # Build of Materials (BOM)
+
 | Reference        | Qty | Value     | DNP | Exclude from BOM | Exclude from Board | Footprint                                                                 | Datasheet                                                                 | Price (USD ea.) | Total (USD) |
 |------------------|-----|-----------|-----|------------------|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------|-------------|
 | 15uH1            | 1   | L2        |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.20            | 0.20        |
@@ -45,4 +46,4 @@ a Lora Puck made using an RP2040 microcontroller!
 | U3               | 1   | W25Q128JVS | |                  |                    | Package_SO:SOIC-8_5.3x5.3mm_P1.27mm                                       | [Winbond Datasheet](https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf) | 1.85            | 1.85        |
 | U4               | 1   | PE4259    |     |                  |                    | Package_TO_SOT_SMD:SOT-363_SC-70-6                                        | [PE4259 Datasheet](https://lcsc.com/datasheet/lcsc_datasheet_2409301504_pSemi-PE4259-63_C470892.pdf) | 1.20            | 1.20        |
 | U5               | 1   | AP2112K-3.3 | |                  |                    | Package_TO_SOT_SMD:SOT-23-5                                               | [AP2112 Datasheet](https://www.diodes.com/assets/Datasheets/AP2112.pdf) | 0.40            | 0.40        |
-| U6               | 1   | SHTC3     |     |                  |                    | Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm                | [S
+| U6               | 1   | SHTC3     |     |                  |                    | Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm                | [SHTC3 Datasheet](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf) | 1.80            | 1.80        |
