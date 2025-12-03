@@ -1,0 +1,32 @@
+Item,Description,Quantity,Product link,Price w/ Tax ($),Running Total
+Capacitor,100nF (0.1uF),13,https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525,$0.21,$0.21
+Capacitor,1uF,2,https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923,$0.06,$0.27
+Capacitor,47nF,1,https://jlcpcb.com/partdetail/YAGEO-CC0402KRX7R9BB473/C1532,$0.02,$0.29
+Capacitor,47pF,1,https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN470/C1549,$0.01,$0.30
+Capacitor,1nF,1,https://jlcpcb.com/partdetail/YAGEO-CC0402KRX7R9BB102/C1522,$0.01,$0.31
+Capacitor,39pF,1,https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN390/C1548,$0.01,$0.32
+Capacitor,3.3pF,4,https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN3R3/C1546,$0.04,$0.36
+Capacitor,10uF,2,https://jlcpcb.com/partdetail/SamsungElectro-CL05A106MQ5NUNC/C15525,$0.06,$0.42
+Capacitor,470nF,1,https://jlcpcb.com/partdetail/YAGEO-CC0402KRX7R9BB471/C1779,$0.02,$0.44
+Inductor,15uH,1,https://jlcpcb.com/partdetail/Sunlord-SDCL1005C150KTDF/C285676,$0.05,$0.49
+Inductor,47nH,1,https://jlcpcb.com/partdetail/JohansonTech-L-0402_47nH/C284438,$0.05,$0.54
+Inductor,9.1nH,1,https://jlcpcb.com/partdetail/JohansonTech-L-0402_9_1nH/C284437,$0.05,$0.59
+Ferrite Bead,Ferrite 0402,1,https://jlcpcb.com/partdetail/Sunlord-SDCL1005C4N7STDF/C8589,$0.01,$0.60
+Balun,Johanson 0900FM15K0039,1,https://jlcpcb.com/partdetail/JohansonTech-0900FM15K0039/C284439,$0.85,$1.45
+Resistor,10k,1,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1002TCE/C25804,$0.01,$1.46
+Resistor,4.7k,2,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF4701TCE/C25867,$0.02,$1.48
+Resistor,27.4Ω,2,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF270JTCE/C23154,$0.02,$1.50
+Resistor,1k,2,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1001TCE/C11702,$0.02,$1.52
+Resistor,100Ω,1,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1000TCE/C25086,$0.01,$1.53
+Resistor,5.1k,2,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF5101TCE/C25905,$0.02,$1.55
+Switch,Tactile Button,2,https://jlcpcb.com/partdetail/XKBConnectivity-TS1187ABAB/C318884,$0.84,$2.39
+USB Receptacle,USB-C 16P,1,https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPEC31M12/C165948,$0.85,$3.24
+IC,LoRa SX1262,1,https://jlcpcb.com/partdetail/Semtech-SX1262IMLTRT/C967207,$6.50,$9.74
+IC,RP2040 MCU,1,https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040,$4.58,$14.32
+IC,Flash W25Q128JVS,1,https://jlcpcb.com/partdetail/Winbond-W25Q128JVSIQ/C97521,$2.67,$16.99
+IC,RF Switch PE4259,1,https://jlcpcb.com/partdetail/PeregrineSemiconductor-PE4259/C285440,$1.20,$18.19
+IC,Regulator AP2112K-3.3,1,https://jlcpcb.com/partdetail/DiodesInc-AP2112K3_3TRG1/C15630,$0.12,$18.31
+Sensor,SHTC3 Humidity/Temp,1,https://jlcpcb.com/partdetail/Sensirion-SHTC3/C2844388,$2.80,$21.11
+Crystal,32MHz 3225,1,https://jlcpcb.com/partdetail/YXC-X322532MSB4SI/C9003,$0.32,$21.43
+Crystal,12MHz 3225,1,https://jlcpcb.com/partdetail/YXC-X322512MSB4SI/C9002,$0.32,$21.75
+LoRa-Puck PCB,PCBA board assembly,1,N/A (https://cart.jlcpcb.com/),$43.94,$65.69
