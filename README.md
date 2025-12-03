@@ -14,36 +14,38 @@ a Lora Puck made using an RP2040 microcontroller!
 <img width="1321" height="897" alt="Screenshot 2025-11-30 210747" src="https://github.com/user-attachments/assets/1484a1f5-f7bd-4e58-923d-200739f7ea15" />
 
 # Build of Materials (BOM)
+## LoRa-Puck PCB BOM
 
-| Reference        | Qty | Value     | DNP | Exclude from BOM | Exclude from Board | Footprint                                                                 | Datasheet                                                                 | Price (USD ea.) | Total (USD) |
-|------------------|-----|-----------|-----|------------------|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------|-------------|
-| 15uH1            | 1   | L2        |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.20            | 0.20        |
-| AE1              | 1   | Antenna   |     |                  |                    | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical                | ~                                                                         | 0.50            | 0.50        |
-| C1,C2,C5,C6,C7,C8,C9,C10,C11,C12,C13,C15,C26 | 13  | 100nF     |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.10            | 1.30        |
-| C3               | 1   | 470nF     |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.15            | 0.15        |
-| C4,C14           | 2   | 1uF       |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.04            | 0.08        |
-| C16              | 1   | 47nF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.12            | 0.12        |
-| C17              | 1   | 47pF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.08            | 0.08        |
-| C18              | 1   | 1nF       |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.08            | 0.08        |
-| C19              | 1   | 39pF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.08            | 0.08        |
-| C20,C21,C22,C23  | 4   | 3.3pF     |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.08            | 0.32        |
-| C24,C25          | 2   | 10uF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.36            | 0.72        |
-| FB1              | 1   | FerriteBead_Small | |                |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.20            | 0.20        |
-| FL1              | 1   | 0900FM15K0039 | |                  |                    | RF_Converter:Balun_Johanson_0900FM15K0039                                 | [Johanson Datasheet](https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf) | 0.80            | 0.80        |
-| J1               | 1   | USB_C_Receptacle_USB2.0_16P | |        |                    | Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal     | [USB Type-C Spec](https://www.usb.org/sites/default/files/documents/usb_type-c.zip) | 1.50            | 1.50        |
-| L1               | 1   | 47nH      |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.20            | 0.20        |
-| L3               | 1   | 9.1nH     |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.20            | 0.20        |
-| R1               | 1   | 10k       |     |                  |                    | Resistor_SMD:R_0402_1005Metric                                            | ~                                                                         | 0.11            | 0.11        |
-| R2,R3            | 2   | 27.4      |     |                  |                    | Resistor_SMD:R_0402_1005Metric                                            | ~                                                                         | 0.09            | 0.18        |
-| R4,R6            | 2   | 1k        |     |                  |                    | Resistor_SMD:R_0402_1005Metric                                            | ~                                                                         | 0.30            | 0.60        |
-| R5               | 1   | 100       |     |                  |                    | Resistor_SMD:R_0402_1005Metric                                            | ~                                                                         | 0.07            | 0.07        |
-| R7,R8            | 2   | 5.1k      |     |                  |                    | Resistor_SMD:R_0402_1005Metric                                            | ~                                                                         | 0.02            | 0.04        |
-| R9,R10           | 2   | 4.7k      |     |                  |                    | Resistor_SMD:R_0402_1005Metric                                            | ~                                                                         | 0.02            | 0.04        |
-| SW1              | 1   | BOOTSEL   |     |                  |                    | Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS        | ~                                                                         | 0.24            | 0.24        |
-| SW2              | 1   | RESET     |     |                  |                    | Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS        | ~                                                                         | 0.24            | 0.24        |
-| U1               | 1   | SX1262IMLTRT | |                  |                    | Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm                       | [SX1262 Datasheet](https://semtech.file.force.com/sfc/dist/version/download/?oid=00DE0000000JelG&ids=0682R00000IjPWSQA3&d=%2Fa%2F2R000000Un7F%2FyT.fKdAr9ZAo3cJLc4F2cBdUsMftpT2vsOICP7NmvMo) | 6.00            | 6.00        |
-| U2               | 1   | RP2040    |     |                  |                    | Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm                       | [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) | 2.28            | 2.28        |
-| U3               | 1   | W25Q128JVS | |                  |                    | Package_SO:SOIC-8_5.3x5.3mm_P1.27mm                                       | [Winbond Datasheet](https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf) | 1.85            | 1.85        |
-| U4               | 1   | PE4259    |     |                  |                    | Package_TO_SOT_SMD:SOT-363_SC-70-6                                        | [PE4259 Datasheet](https://lcsc.com/datasheet/lcsc_datasheet_2409301504_pSemi-PE4259-63_C470892.pdf) | 1.20            | 1.20        |
-| U5               | 1   | AP2112K-3.3 | |                  |                    | Package_TO_SOT_SMD:SOT-23-5                                               | [AP2112 Datasheet](https://www.diodes.com/assets/Datasheets/AP2112.pdf) | 0.40            | 0.40        |
-| U6               | 1   | SHTC3     |     |                  |                    | Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm                | [SHTC3 Datasheet](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf) | 1.80            | 1.80        |
+| Item | Description | Qty | Product link | Price w/ Tax ($) | Running Total |
+|------|-------------|-----|--------------|------------------|---------------|
+| Capacitor | 100nF (0.1uF) | 13 | [link](https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525) | $0.21 | $0.21 |
+| Capacitor | 1uF | 2 | [link](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923) | $0.06 | $0.27 |
+| Capacitor | 47nF | 1 | [link](https://jlcpcb.com/partdetail/YAGEO-CC0402KRX7R9BB473/C1532) | $0.02 | $0.29 |
+| Capacitor | 47pF | 1 | [link](https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN470/C1549) | $0.01 | $0.30 |
+| Capacitor | 1nF | 1 | [link](https://jlcpcb.com/partdetail/YAGEO-CC0402KRX7R9BB102/C1522) | $0.01 | $0.31 |
+| Capacitor | 39pF | 1 | [link](https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN390/C1548) | $0.01 | $0.32 |
+| Capacitor | 3.3pF | 4 | [link](https://jlcpcb.com/partdetail/YAGEO-CC0402JRNPO9BN3R3/C1546) | $0.04 | $0.36 |
+| Capacitor | 10uF | 2 | [link](https://jlcpcb.com/partdetail/SamsungElectro-CL05A106MQ5NUNC/C15525) | $0.06 | $0.42 |
+| Capacitor | 470nF | 1 | [link](https://jlcpcb.com/partdetail/YAGEO-CC0402KRX7R9BB471/C1779) | $0.02 | $0.44 |
+| Inductor | 15uH | 1 | [link](https://jlcpcb.com/partdetail/Sunlord-SDCL1005C150KTDF/C285676) | $0.05 | $0.49 |
+| Inductor | 47nH | 1 | [link](https://jlcpcb.com/partdetail/JohansonTech-L-0402_47nH/C284438) | $0.05 | $0.54 |
+| Inductor | 9.1nH | 1 | [link](https://jlcpcb.com/partdetail/JohansonTech-L-0402_9_1nH/C284437) | $0.05 | $0.59 |
+| Ferrite Bead | Ferrite 0402 | 1 | [link](https://jlcpcb.com/partdetail/Sunlord-SDCL1005C4N7STDF/C8589) | $0.01 | $0.60 |
+| Balun | Johanson 0900FM15K0039 | 1 | [link](https://jlcpcb.com/partdetail/JohansonTech-0900FM15K0039/C284439) | $0.85 | $1.45 |
+| Resistor | 10k | 1 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1002TCE/C25804) | $0.01 | $1.46 |
+| Resistor | 4.7k | 2 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF4701TCE/C25867) | $0.02 | $1.48 |
+| Resistor | 27.4Ω | 2 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF270JTCE/C23154) | $0.02 | $1.50 |
+| Resistor | 1k | 2 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1001TCE/C11702) | $0.02 | $1.52 |
+| Resistor | 100Ω | 1 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1000TCE/C25086) | $0.01 | $1.53 |
+| Resistor | 5.1k | 2 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF5101TCE/C25905) | $0.02 | $1.55 |
+| Switch | Tactile Button | 2 | [link](https://jlcpcb.com/partdetail/XKBConnectivity-TS1187ABAB/C318884) | $0.84 | $2.39 |
+| USB Receptacle | USB-C 16P | 1 | [link](https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPEC31M12/C165948) | $0.85 | $3.24 |
+| IC | LoRa SX1262 | 1 | [link](https://jlcpcb.com/partdetail/Semtech-SX1262IMLTRT/C967207) | $6.50 | $9.74 |
+| IC | RP2040 MCU | 1 | [link](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040) | $4.58 | $14.32 |
+| IC | Flash W25Q128JVS | 1 | [link](https://jlcpcb.com/partdetail/Winbond-W25Q128JVSIQ/C97521) | $2.67 | $16.99 |
+| IC | RF Switch PE4259 | 1 | [link](https://jlcpcb.com/partdetail/PeregrineSemiconductor-PE4259/C285440) | $1.20 | $18.19 |
+| IC | Regulator AP2112K-3.3 | 1 | [link](https://jlcpcb.com/partdetail/DiodesInc-AP2112K3_3TRG1/C15630) | $0.12 | $18.31 |
+| Sensor | SHTC3 Humidity/Temp | 1 | [link](https://jlcpcb.com/partdetail/Sensirion-SHTC3/C2844388) | $2.80 | $21.11 |
+| Crystal | 32MHz 3225 | 1 | [link](https://jlcpcb.com/partdetail/YXC-X322532MSB4SI/C9003) | $0.32 | $21.43 |
+| Crystal | 12MHz 3225 | 1 | [link](https://jlcpcb.com/partdetail/YXC-X322512MSB4SI/C9002) | $0.32 | $21.75 |
+| LoRa-Puck PCB | PCBA board assembly | 1 | [link](https://cart.jlcpcb.com/) | $43.94 | $65.69 |
