@@ -1,6 +1,6 @@
 # Lora Puck
 
-a Lora Puck made using an RP2040 microcontroller!
+This is my version of a Lora Puck, which is a compact, low-power wireless communication module that can send and receive data from several kilometers away! This puck has several unique features and parts (as listed below), and includes a temperature sensor as well! This is one of my first ever PCBs, so it most definitely has some flaws!
 
 # Features:
 - USBC Receptacle
@@ -14,7 +14,6 @@ a Lora Puck made using an RP2040 microcontroller!
 <img width="1321" height="897" alt="Screenshot 2025-11-30 210747" src="https://github.com/user-attachments/assets/1484a1f5-f7bd-4e58-923d-200739f7ea15" />
 
 # Build of Materials (BOM)
-## LoRa-Puck PCB BOM
 
 | Item | Description | Qty | Product link | Price w/ Tax ($) | Running Total |
 |------|-------------|-----|--------------|------------------|---------------|
